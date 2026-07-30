@@ -1,2 +1,2 @@
-print("Hello world")
-print("Welcome to kodNest")
+print("My name is K Ranadeep Reddy")
+print("I am looking for a job ")
