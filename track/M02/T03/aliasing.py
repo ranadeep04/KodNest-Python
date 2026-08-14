@@ -1,0 +1,11 @@
+lst1=[50,60,80]
+print(lst1)
+print(id(lst1))
+#lst2=lst1
+lst2=lst1[:]
+print(lst2)
+print(id(lst2))
+lst2[0]=30
+print(lst2)
+print(id(lst2))
+print(lst1)

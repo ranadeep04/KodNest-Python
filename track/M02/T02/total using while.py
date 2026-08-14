@@ -1,6 +1,6 @@
 n=int(input("Enter the value of n:"))
 
-counter =0
+counter=0
 total=0
 
 while counter<=n:
