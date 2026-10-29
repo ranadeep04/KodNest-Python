@@ -5,4 +5,4 @@ students=[
     ("Suraj",70)
 ]
 
-print(sorted(students))
+print(sorted(students))#sorted on bais of names

@@ -22,10 +22,10 @@ class PythonDeveloper(Developer):
 
 
 jdev=JavaDeveloper()
-jdev.work()
-jdev.doJavaProject()
+jdev.work() #overridden method
+jdev.doJavaProject() #child-specific method
 
 pdev=PythonDeveloper()
-pdev.attendMeeting()
-pdev.work()
-pdev.doPythonproject()
+pdev.attendMeeting() #inherited method
+pdev.work() #overridden method
+pdev.doPythonproject() #child-specific-method
